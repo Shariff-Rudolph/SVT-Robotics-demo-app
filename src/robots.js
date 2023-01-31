@@ -1,5 +1,5 @@
 
-
+// Function to get API data and place data within the table
 const getRobots = async () => {
   try {
     const res = await axios.get("https://60c8ed887dafc90017ffbd56.mockapi.io/robots");
