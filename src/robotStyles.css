@@ -1,4 +1,4 @@
-#main{
+#main {
   background-image: url("/img/SVT_Robotics.jpeg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -8,7 +8,7 @@
   height: 300px;
 }
 
-#robot{
+#robot {
   background-color: black;
   background-image: url("/img/robot1.gif");
   background-repeat: no-repeat;
@@ -17,4 +17,19 @@
   width: 100%;
   height: 200px;
   padding-bottom: 10px;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Righteous', cursive;
+  color: #0462A2;
+}
+
+.righteous {
+  font-family: 'Righteous', cursive;
+}
+
+.form-control::placeholder {
+  font-family: 'Righteous', cursive;
 }
