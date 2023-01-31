@@ -67,3 +67,27 @@ function sortTableByColumn(table, column, asc = true){
       sortTableByColumn(tableElement, headerIndex, !currentIsAscending);
   });
 });
+
+// Filter table
+function tableSearch(){
+  let input, filter, myTable, tr, td, txtValue;
+  
+  // initializing variables
+  input = document.getElementById("myInput");
+  filter = input.value;
+  myTable = document.getElementById("table");
+  tr = myTable.getElementsByTagName("tr");
+
+  for(let i = 0; i < tr.length; i++){
+    td = tr[i].getElementsByTagName("td")[0];
+    if(td){
+       txtValue = td.textContent || td.innerText;
+      if(txtValue.indexOf(filter) > -1){
+        tr[i].style.display = "";
+      }
+      else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
