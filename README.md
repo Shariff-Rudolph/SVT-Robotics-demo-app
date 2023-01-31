@@ -21,9 +21,9 @@ The easiest way to see how this project works is to:
 5. Open a terminal window and change directory into the desired location where you would like to clone the repository
 6. In the terminal window type the following command: git clone https://... (paste in the copied url after git clone)
 7. Change directory into the folder of the cloned respository
-8. Open the index.html file
-9. Right click within the file and select "Open with Live Server"
-10. The app should be opened within a window of your default browser running on localhost http://127.0.0.1:5501/index.html
+8. Open the index.html file within VS Code
+9. Right click within the index.html file and select "Open with Live Server"
+10. The app should be opened within a window of your default browser and running on localhost http://127.0.0.1:5501/index.html
 
 ## Future goals for the example project
 
