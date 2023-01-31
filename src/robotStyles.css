@@ -33,3 +33,9 @@
 .form-control::placeholder {
   font-family: 'Righteous', cursive;
 }
+
+.mb-3 {
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
