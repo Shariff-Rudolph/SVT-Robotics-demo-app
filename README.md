@@ -29,7 +29,7 @@ The easiest way to see how this project works is to:
 
 Turn the app into a mock e-commerce site where users can create an account and buy robots. The user would be able to login and view the robots which they have purchased and leave comments about their items as well as read comments from other users about their robots. 
 
-Other improvemnets would be adding photos for all robots and creating a photo grid. The grid would display the details of the robot within a modal containing its picture and would also popup when the picture is clicked. 
+Other improvements would be adding photos for all robots and creating a photo grid. The grid would display the details of the robot within a modal containing its picture and would also popup when the picture is clicked. 
 
 A toggle would be created to switch back and forth between the table view and grid view.
 
